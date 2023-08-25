@@ -5,12 +5,7 @@ if __name__ == "__main__":
     a = 10
     b = 5
 
-    sum_result = add(a, b)
-    diff_result = sub(a, b)
-    mul_result = mul(a, b)
-    div_result = div(a, b)
-
-    print(f"sum: {sum_result}")
-    print(f"Difference: {diff_result}")
-    print(f"Multiple: {mul_result}")
-    print(f"Division: {div_Result}")
+    print("{} + {} = {}".format(a, b, add(a, b)))
+    print("{} - {} = {}".format(a, b, sub(a, b)))
+    print("{} * {} = {}".format(a, b, mul(a, b)))
+    print("{} / {} = {}".format(a, b, div(a, b)))
